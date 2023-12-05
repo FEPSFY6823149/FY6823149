@@ -279,7 +279,7 @@ Equip the A320 with Fly-by-Wire Controls, Side Stick Controllers and Electronic 
 <h2> Conference Presentation: Fly-by-Wire Technology: Revolutionizing Aviation Safety and Maneuverability </h2>
 
   <script>
-    var slideImages = ["slide1.jpg", "slide2.jpg", "slide3.jpg", "slide4.jpg", "slide 5.jpg"];
+    var slideImages = ["slide 1.jpg", "slide 2.jpg", "slide 3.jpg", "slide 4.jpg", "slide 5.jpg"];
     var currentSlide = 0;
 
     function showSlide() {
@@ -326,7 +326,37 @@ Equip the A320 with Fly-by-Wire Controls, Side Stick Controllers and Electronic 
 
   <style>
     #slide-container {
-      text-align: center:
+      text-align: center;
+      position: relative;
+    }
+
+    .button-container {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%)
+      margin-bottom: -100px;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      colour: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 0 5px;
+    }
+
+
+    .slide-number-container {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: transformX(-50%);
+      margin-bottom: 50px;
+    }
   </style>
 
 
