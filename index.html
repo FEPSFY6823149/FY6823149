@@ -262,20 +262,6 @@ Equip the A320 with Fly-by-Wire Controls, Side Stick Controllers and Electronic 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <h2> Conference Presentation: Fly-by-Wire Technology: Revolutionizing Aviation Safety and Maneuverability </h2>
 
   <script>
@@ -325,38 +311,40 @@ Equip the A320 with Fly-by-Wire Controls, Side Stick Controllers and Electronic 
 
 
   <style>
-    #slide-container {
-      text-align: center;
-      position: relative;
-    }
+   
+  #slide-container {
+    text-align: center;
+    position: relative;
+  }
+ 
+  /* Style for the buttpns */
+  .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -100px; 
+  }
 
-    .button-container {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      margin-bottom: -100px;
-    }
+  .button {
+    padding 10px 20px;
+    background-color: #4CAF10;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;  
+  }
 
-    .button {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      colour: white;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-      margin: 0 5px;
-    }
-
-
-    .slide-number-container {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: transformX(-50%);
-      margin-bottom: 50px;
-    }
+  .slide-number-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -50px;  /* Add some margin between the slide numbere buttons and the image */
+  }
+ 
   </style>
 
 
